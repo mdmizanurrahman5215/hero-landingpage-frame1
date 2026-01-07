@@ -18,10 +18,12 @@
 }
 
 #banner {
-    background: url(images/banner/banner1.png) no-repeat;
-    max-width: 1600px;
-    height: 808px;
-    position: relative;
+    background-image: url(images/banner/banner1.png);
+    width: 100vw;
+    min-height: 100vh; 
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
 }
 
 .content {
