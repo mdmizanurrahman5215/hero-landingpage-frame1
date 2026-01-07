@@ -59,6 +59,7 @@
     border-radius: 5px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
     /* text-align: right; */
 
 
@@ -206,4 +207,88 @@
     margin-bottom: 16px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
+
+#footer{
+    width: 100vw;
+    height: 577px;
+    background-color: #151414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#footer .footer-container{
+    height:317px ;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 331px;
+
+}
+.feature-section h1{
+   font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.feature-section p{
+   font-size: 16px;
+    /* font-weight: bold; */
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+.feature-section a{
+    text-decoration: none;
+   font-size: 16px;
+    /* font-weight: bold; */
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+.social-icon{
+  display: flex;
+  gap: 17px;
+  margin-top: 16px;
+
+}
+.social-icon img{
+ cursor: pointer;
+
+}
+.subscribe h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.subscribe input{
+    width:325px ;
+    height: 64px;
+   border-radius: 5px;
+     background: transparent;
+     border: 1px solid #dbd6d6;
+     outline: none;
+     margin-bottom: 16px;
+
+}
+.subscribe input::placeholder{
+  font-size: 18px;
+     color: #F3F3F3;
+     padding: 22px;
+
+}
+.subscribe button{
+    font-size: 20px;
+     color: #F15B22;
+     font-weight: 600;
+     padding: 20px 36px;
+     background-color: white;
+     border-radius: 5px;
+     cursor: pointer;
+
+}
+
+
